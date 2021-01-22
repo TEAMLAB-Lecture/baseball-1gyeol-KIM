@@ -274,7 +274,7 @@ def is_no(one_more_input):
     # ===Modify codes below=============
     # 조건에 따라 변환되어야 할 결과를 result 변수에 할당
     no_dict = {0:"nN", 1:"oO"}
-    if len(one_more_input) == 1 or len(one_more_input) == 3:
+    if len(one_more_input) == 1 or len(one_more_input) == 2:
         for i in range(len(one_more_input)):
             if one_more_input[i] not in no_dict[i]:
                 result = False
